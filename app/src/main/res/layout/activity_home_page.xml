@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/mydemo"
+    tools:context="app.mydemo.com.calculator.HomePage">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/gst" />
+
+    <Button
+        android:id="@+id/gstCalculator"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:text="GST Calculator"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/listOfProduct"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gstCalculator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimary"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:text="Product"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>
+
